@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+
+/* fonts */
+.title-main {
+    font-family: "Roboto", sans-serif;
+}
+
+
+/* alert bar */
+.site-wide-alert {
+    border-radius: 0;
+    margin-bottom: 0;
+    padding: 5px 20px;
+    background-color:#F6F6F8;
+    border-color: #F6F6F8;
+    color: #fafafa;
+
+}
+
+.site-wide-alert a {
+    text-decoration: underline;
+    text-decoration-color: white;
+    color: #151F2A;
+}
+
+.site-wide-alert a:hover {
+    text-decoration: underline;
+    text-decoration-color: white;
+    color: #F6F6F8 ;
+}
+
+.alert-container .col-12 {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+/* social links in alert bar */
+.social-links li a i {
+    width: 32px;
+    height: 32px;
+    padding: 12px 0;
+    border-radius: 50%;
+    font-size: 13px;
+    line-height: 7px;
+    text-align: center;
+    color: #fafafa;
+    background: #151F2A;
+    transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+}
+
+.social-links li a i:hover {
+    background: rgb(138, 138, 139) ;
+}
+
+/* Nav Bar */
+.bg-light {
+    background-color: #151F2A!important;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: white;
+}
+
+.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
+    color: white;
+    text-decoration: underline;
+}
